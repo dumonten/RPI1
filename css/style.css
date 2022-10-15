@@ -1,0 +1,8 @@
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    height: 200px;
+    background-image: linear-gradient(#191919 0%, transparent 100%);
+}
