@@ -12,7 +12,7 @@ li{
 }
 
 header{
-    background: url(../images/Bg3.png) no-repeat;
+    background: url(../images/Bg3.png) no-repeat fixed;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
@@ -151,6 +151,59 @@ header{
     opacity: .5;
     z-index: -1;
 }   
+
+.about{
+    background: url(../images/pattern.png) no-repeat, 
+                url(../images/background_about.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    
+    height: 710px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about .leftContent{
+    display: flex;
+    flex-direction: column;
+    width: 777px;
+}
+
+.leftContent .about__logo{
+    margin-top: 110px;
+    margin-left: 365px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive; 
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.leftContent .line{
+    display: block; 
+    margin-top: 16px;
+    margin-left: 420px;
+}
+
+.leftContent .aboutDescrip{
+    margin-top: 36px;
+    margin-left: 265px;
+    color: #4c4c4c;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.leftContent .theCook{
+    margin-top: 47px;
+    margin-left: 447px;
+}
+
+.about .dish{
+    margin-top: 74px;
+}
 
 @media screen and (max-width: 1500px){
     .topnav a{
