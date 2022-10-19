@@ -1,8 +1,159 @@
-body {
-    background-color: #FFFFFF;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    height: 200px;
-    background-image: linear-gradient(#191919 0%, transparent 100%);
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background: url(../images/Bg3.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    
+    box-shadow: inset 0 90px 20px -7px rgba(0,0,0,0.4);
+
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoAndNav{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo{
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    margin-top: 47px;
+    margin-left: 12%;
+    height: 240px;
+    
+    color: #e2e0e0;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+}
+
+.topnav{
+    margin-left: 10%; 
+    margin-top: 54px;
+    height: 240px;
+}
+
+.topnav .text{
+    padding-left: 26px;
+    padding-right: 26px;
+    color: #e2e0e0;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px; 
+}
+
+.topnav .text:hover{
+    padding-top: 51px;
+    border-top: 3px solid #c8c4b6;
+}
+
+.topnav .icon{
+    padding-right: 20px;
+    color: #dab33e;
+    font-size: 21px;
+}
+
+.header__main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header__main h1{
+    color: #f3f3f3;
+    font-family: 'Yeseva One', cursive; 
+    font-size: 90px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.header__main .line{
+    display: block;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+    width: 100%;
+}
+
+.buttons a{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button1{
+    border: 1px solid black; 
+    width: 225px;
+    height: 56px;
+    margin-left: 37.2%;
+    margin-right: 2%;
+    display: block;
+    line-height: 56px;
+    position: relative;
+    z-index: 1;
+}
+
+.button1::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: -1;
+}    
+
+.button2{
+    border: 1px solid #d4cfb4; 
+    width: 225px;
+    height: 56px;
+    display: block;
+    line-height: 56px;
+    position: relative;
+    z-index: 1;
+}
+
+.button2::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #d4cfb4;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: -1;
+}   
+
+@media screen and (max-width: 1500px){
+    .topnav a{
+        display: none;
+    }
 }
