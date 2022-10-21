@@ -10,16 +10,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="logoAndNav" id="main">
-                <div class="header__logo"><p>lambda</p> </div>
-                <div class="topnav" id="mainTopnav">
+        <header class="header">
+            <div class="header__inner">
+                <div class="header__logo-wrapper">
+                    <div class="header__logo"><p>lambda</p></div>
+                </div>
+                <div class="header__contents">
                     <nav>
                         <a href="#main" class="text">Home</a>
                         <a href="#about" class="text">About</a>
                         <a href="" class="text">Ingredients</a>
-                        <a href="" class="text">Menu</a>
                         <a href="" class="text">Reviews</a>
+                        <a href="" class="text">Menu</a>
                         <a href="" class="text">Reservations</a>
                         <a href="" id="twitter"  class="fa-brands fa-twitter icon"></a>
                         <a href="" id="youtube"  class="fa-brands fa-youtube icon"></a>
@@ -27,24 +29,34 @@
                     </nav>
                 </div>
             </div>
-            <div class="header__main">
-                <h1>the right ingredients<br>for the right food</h1>
-                <div class="line"><img src="images\Decoration.png" alt=""></div>
-                <div class="buttons">
-                        <a href="" class="button1">BOOK A TABLE</a>
-                        <a href="" class="button2">SEE THE MENU</a>
-                </div>
-            </div>
         </header>
         <div class="wrapper">
-            <section class="about" id="about">
-                <div class="leftContent">
-                    <div class="about__logo"><p>Just the right food</p></div>
-                    <div class="line"><img src="images\Divider.png" alt="" style="height: 24px; width: 247px"></div>
-                    <div class="aboutDescrip"><p>If you've been to one of our restaurants, you've seen – and tasted<br>– what keeps our customers coming back for more. Perfect<br>materials and freshly baked food, delicious Lambda cakes,<br>muffins, and gourmet coffees make us hard to resist! Stop in<br>today and check us out!</p></div>
-                    <div class="theCook"><img src="images\cook.png" alt="" style="height: 221px; width: 219px"></div>
+            <section class="promo" id="promo">
+                <div class="promo__inner">
+                    <div class="promo__logo-wrapper">
+                        <h1>the right ingredients<br>for the right food</h1>
+                    </div>
+                    <div class="line"><img src="images\Decoration.png" alt=""></div>
+                    <div class="buttons">
+                        <a href="" class="button_left button_property">BOOK A TABLE</a>
+                        <a href="" class="button_right button_property">SEE THE MENU</a>
+                    </div>
                 </div>
-                <div class="dish"><img src="images\dish.png" alt="" style="height: 625px; width: 621px"></div>
+            </section>
+            <section class="about" id="about">
+                <div class="about__inner">
+                    <div class="about__parts">
+                        <div class="about__left" id="left">
+                            <p><span class="about__logo-wrapper">Just the right food</span></p>
+                            <div class="line"><img src="images\Divider.png" alt=""></div>
+                            <p><span class="about__content-text">If you've been to one of our restaurants, you've seen – and<br>tasted – what keeps our customers coming back for more.<br>Perfect materials and freshly baked food, delicious Lambda<br>cakes, muffins, and gourmet coffees make us hard to resist!<br>Stop in today and check us out!</span></p>
+                            <div class="the_cook"><img src="images\cook.png" alt="" style="height: 221px; width: 219px"></div>
+                        </div>
+                        <div class="about__right" id="right">
+                            <div class="dish"><img src="images\dish.png" alt="" style="height: 625px; width: 621px"></div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="ingridients">
                 
@@ -52,44 +64,15 @@
             <section class="menu">
                 
             </section>
-            <section class="reviews">
+            <section= class="reviews">
                 
             </section>
             <section class="reservations">
-                <div class="rimg"><img src="images\image5.png" alt=""></div>
-                <div class="rimg"><img src="images\image6.png" alt=""></div>
-                <div class="rdiv">
-                    <h6>Just the right food</h6>
-                    <div><img src="images/Divider.png" alt="" style="width: 250px; height: 25px"></div>
-                    <p></p>
-                    <form></form>
-                </div>
+                
             </section>
-        </div>  
+        </div> 
         <footer>
-            <div class="fdiv">
-                <h6>About Us</h6>
-                <div style="padding: 20px 0px 24px 0px"><img src="images/Divider2.png" alt="" style="height: 20px; width: 200px"></div>
-                <p>Lambda's new and expanded Chelsea location represents a truly a truly <b>Greek</b> patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.<br>Lambda the best restaurant in town</p>
-            </div>
-            <div class="fdiv">
-                <h6>Opening Hours</h6>
-                <div style="padding: 20px 0px 24px 0px"><img src="images/Divider2.png" alt="" style="height: 20px; width: 200px"></div>
-                <p><b>Mon-Thu:</b> 7:00am-8:00pm<br><b>Fri-Sun:</b> 7:00am-10:00pm</p>
-                <i class="fa-brands fa-cc-mastercard ficon"></i>
-                <i class="fa-brands fa-cc-visa ficon"></i>
-                <i class="fa-brands fa-cc-paypal ficon"></i>
-                <i class="fa-brands fa-cc-discover ficon"></i>
-            </div>
-            <div class="fdiv">
-                <h6>Our Location</h6>
-                <div style="padding: 20px 0px 24px 0px"><img src="images/Divider2.png" alt="" style="height: 20px; width: 200px"></div>
-                <p><b>19th Paradise Street Sitia<br>128 Meserole Avenue</b></p>
-                <i class="fa-brands fa-facebook-f ficon"></i>
-                <i class="fa-brands fa-youtube ficon"></i>
-                <i class="fa-brands fa-twitter ficon"></i>
-                <i class="fa-brands fa-trello ficon"></i>
-            </div>
+
         </footer>
     </body>
 </html>
