@@ -205,8 +205,97 @@ header{
     margin-top: 74px;
 }
 
+.reservations {
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0px 103px 0px;
+    background: url(../images/pattern.png) no-repeat,
+                url(../images/background2.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border: 1px solid rebeccapurple;
+}
+
+.rimg {
+    width: 270px;
+    height: 508px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    padding: 0px;
+    border: 1px solid rebeccapurple;
+}
+
+.rdiv {
+    max-width: 570px;
+    width: 90%;
+    height: 508px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    padding: 0px;
+    border: 1px solid rebeccapurple;
+}
+
+footer {
+    width: 100%;
+    padding-top: 52px;
+    padding-bottom: 50px;
+    height: fit-content;
+    text-align: center;
+    background-color: #191919;
+}
+
+.fdiv {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    height: 218px;
+    width: 390px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fdiv h6 {
+    color: #f3f3f3;
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.fdiv p {
+    color: #f3f3f3;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.fdiv .ficon {
+    color: #f3f3f3;
+    font-size: 16px;
+    margin: 50px 5px 0px 5px;
+    
+}
+
 @media screen and (max-width: 1500px){
     .topnav a{
         display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .rimg {
+        width: 135px;
+        height: 254px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 15px;
+        padding: 0px;
+        border: 1px solid rebeccapurple;
     }
 }
