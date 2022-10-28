@@ -1,0 +1,141 @@
+.ingridients
+{ 
+    background-image: url(../images/bg5.png) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+    width: 100%;
+    height: 758px;
+}
+.ingridients_text
+{
+  box-sizing: border-box;
+  border: 12%;
+
+  display: block;
+  align-items: center;
+  text-align: center;
+  color: white;
+  
+  position: relative;
+  margin-top: 100px;
+  margin-left: 50.1%;
+  width: 38%;
+  height: 557px;
+  background-color : rgba(0, 0, 0, 0.5);
+  
+}
+
+.ingridients_text h1
+{
+  font-size: 36px;
+  font-family: 'Yeseva One';
+}
+.ingridients_images 
+{
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.ingridients_images :hover
+{
+  opacity: .8;
+  background-color: aquamarine;
+}
+
+.menu
+{ 
+    background-image: url(../images/pattern1.png)  ;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    display: flex;
+    
+
+    flex-direction: column!important;
+    justify-content: center!important;
+    width: 100%;
+    height: auto;
+    
+}
+.menu_whole{
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom:auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.menu_whole_left
+{
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  margin-bottom: 80px;
+  width: 514px;
+}
+
+.menu_whole_right
+{ 
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  width: 514px;}
+
+.menu_group
+{
+  font-weight: normal;
+  
+  font-family: 'Yeseva One';
+  margin-top: 100px;
+  margin-right: 85px;
+  margin-left: 85px;
+  width: 430px;
+}
+.menu_group .menu_header
+{
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 10px;
+
+  font-family: 'Yeseva One';
+  font-size: 36px;
+  color: #cc9900;
+}
+.menu_header p
+{
+  margin-bottom: 5px;
+}
+
+.menu_item table
+{
+  font-family: 'Yeseva';
+  font-size: 26px;
+  font-weight: bold;
+  color: #cc9900;
+  width: 430px;
+}
+
+.menu_item p
+{
+  text-align: left;
+  font-size: 13px;
+}
+.menu_group .menu_txt_left
+{
+  text-align: left;
+}
+.menu_group .menu_txt_right
+{
+  text-align: right;
+}
+
+@media screen and (max-width: 950px){
+  .ingridients_images {
+        display: none;
+  }
+}
