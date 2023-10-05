@@ -4,6 +4,7 @@
 
 **********
 **What I've done?**:question:
+
 It was a collaborative project where we developed a web page starting from a foundational template. The focus of our web page revolved around the restaurant industry with a particular emphasis on facilitating online reservation bookings. 
 
 **********
